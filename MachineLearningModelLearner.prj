@@ -1,0 +1,170 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="539416932" file="D:\desktop\26MLM\matlabgui\MachineLearningModelLearner.prj" location="D:\desktop\26MLM\matlabgui" name="MachineLearningModelLearner" target="target.mlapps" target-name="打包为 App">
+    <param.appname>MachineLearningModelLearner</param.appname>
+    <param.authnamewatermark>Xuan Guo</param.authnamewatermark>
+    <param.email>15210418734@163.com</param.email>
+    <param.company>Tsinghua University</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>f308dcd9-b979-45d4-90b9-df1db6f0eccb</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\cover.m</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\BiLSTMClassCross.fig</file>
+      <file>${PROJECT_ROOT}\BiLSTMClassCross.m</file>
+      <file>${PROJECT_ROOT}\BiLSTMClassHold.fig</file>
+      <file>${PROJECT_ROOT}\BiLSTMClassHold.m</file>
+      <file>${PROJECT_ROOT}\BiLSTMRegressionCross.fig</file>
+      <file>${PROJECT_ROOT}\BiLSTMRegressionCross.m</file>
+      <file>${PROJECT_ROOT}\BiLSTMRegressionHold.fig</file>
+      <file>${PROJECT_ROOT}\BiLSTMRegressionHold.m</file>
+      <file>${PROJECT_ROOT}\BpANNClassCross.fig</file>
+      <file>${PROJECT_ROOT}\BpANNClassCross.m</file>
+      <file>${PROJECT_ROOT}\BpANNClassHold.fig</file>
+      <file>${PROJECT_ROOT}\BpANNClassHold.m</file>
+      <file>${PROJECT_ROOT}\BpANNRegressionCross.fig</file>
+      <file>${PROJECT_ROOT}\BpANNRegressionCross.m</file>
+      <file>${PROJECT_ROOT}\BpANNRegressionHold.fig</file>
+      <file>${PROJECT_ROOT}\BpANNRegressionHold.m</file>
+      <file>${PROJECT_ROOT}\CNNClassCross.fig</file>
+      <file>${PROJECT_ROOT}\CNNClassCross.m</file>
+      <file>${PROJECT_ROOT}\CNNClassHold.fig</file>
+      <file>${PROJECT_ROOT}\CNNClassHold.m</file>
+      <file>${PROJECT_ROOT}\CNNRegressionCross.fig</file>
+      <file>${PROJECT_ROOT}\CNNRegressionCross.m</file>
+      <file>${PROJECT_ROOT}\CNNRegressionHold.fig</file>
+      <file>${PROJECT_ROOT}\CNNRegressionHold.m</file>
+      <file>${PROJECT_ROOT}\cover.fig</file>
+      <file>${PROJECT_ROOT}\DTClassCross.fig</file>
+      <file>${PROJECT_ROOT}\DTClassCross.m</file>
+      <file>${PROJECT_ROOT}\DTClassHold.fig</file>
+      <file>${PROJECT_ROOT}\DTClassHold.m</file>
+      <file>${PROJECT_ROOT}\DTRegressionHold.fig</file>
+      <file>${PROJECT_ROOT}\DTRegressionHold.m</file>
+      <file>${PROJECT_ROOT}\figure.bmp</file>
+      <file>${PROJECT_ROOT}\GMM.fig</file>
+      <file>${PROJECT_ROOT}\GMM.m</file>
+      <file>${PROJECT_ROOT}\GPRRegressionCross.fig</file>
+      <file>${PROJECT_ROOT}\GPRRegressionCross.m</file>
+      <file>${PROJECT_ROOT}\GPRRegressionHold.fig</file>
+      <file>${PROJECT_ROOT}\GPRRegressionHold.m</file>
+      <file>${PROJECT_ROOT}\GRUClassCross.fig</file>
+      <file>${PROJECT_ROOT}\GRUClassCross.m</file>
+      <file>${PROJECT_ROOT}\GRUClassHold.fig</file>
+      <file>${PROJECT_ROOT}\GRUClassHold.m</file>
+      <file>${PROJECT_ROOT}\GRURegressionCross.fig</file>
+      <file>${PROJECT_ROOT}\GRURegressionCross.m</file>
+      <file>${PROJECT_ROOT}\GRURegressionHold.fig</file>
+      <file>${PROJECT_ROOT}\GRURegressionHold.m</file>
+      <file>${PROJECT_ROOT}\Hera.fig</file>
+      <file>${PROJECT_ROOT}\Hera.m</file>
+      <file>${PROJECT_ROOT}\kmeansauto1.fig</file>
+      <file>${PROJECT_ROOT}\kmeansauto1.m</file>
+      <file>${PROJECT_ROOT}\KNNClassCross.fig</file>
+      <file>${PROJECT_ROOT}\KNNClassCross.m</file>
+      <file>${PROJECT_ROOT}\KNNClassHold.fig</file>
+      <file>${PROJECT_ROOT}\KNNClassHold.m</file>
+      <file>${PROJECT_ROOT}\KNNRegressionCross.fig</file>
+      <file>${PROJECT_ROOT}\KNNRegressionCross.m</file>
+      <file>${PROJECT_ROOT}\KNNRegressionHold.fig</file>
+      <file>${PROJECT_ROOT}\KNNRegressionHold.m</file>
+      <file>${PROJECT_ROOT}\LSTMClassCross.fig</file>
+      <file>${PROJECT_ROOT}\LSTMClassCross.m</file>
+      <file>${PROJECT_ROOT}\LSTMClassHold.fig</file>
+      <file>${PROJECT_ROOT}\LSTMClassHold.m</file>
+      <file>${PROJECT_ROOT}\LSTMRegressionCross.fig</file>
+      <file>${PROJECT_ROOT}\LSTMRegressionCross.m</file>
+      <file>${PROJECT_ROOT}\LSTMRegressionHold.fig</file>
+      <file>${PROJECT_ROOT}\LSTMRegressionHold.m</file>
+      <file>${PROJECT_ROOT}\MCClassCross.fig</file>
+      <file>${PROJECT_ROOT}\MCClassCross.m</file>
+      <file>${PROJECT_ROOT}\MCClassHold.fig</file>
+      <file>${PROJECT_ROOT}\MCClassHold.m</file>
+      <file>${PROJECT_ROOT}\MLRegressionCross.fig</file>
+      <file>${PROJECT_ROOT}\MLRegressionCross.m</file>
+      <file>${PROJECT_ROOT}\MLRegressionHold.fig</file>
+      <file>${PROJECT_ROOT}\MLRegressionHold.m</file>
+      <file>${PROJECT_ROOT}\PCA.fig</file>
+      <file>${PROJECT_ROOT}\PCA.m</file>
+      <file>${PROJECT_ROOT}\RFClassCross.fig</file>
+      <file>${PROJECT_ROOT}\RFClassCross.m</file>
+      <file>${PROJECT_ROOT}\RFClassHold.fig</file>
+      <file>${PROJECT_ROOT}\RFClassHold.m</file>
+      <file>${PROJECT_ROOT}\RFRegressionCross.fig</file>
+      <file>${PROJECT_ROOT}\RFRegressionCross.m</file>
+      <file>${PROJECT_ROOT}\RFRegressionholdout.fig</file>
+      <file>${PROJECT_ROOT}\RFRegressionholdout.m</file>
+      <file>${PROJECT_ROOT}\supervisedmodel.fig</file>
+      <file>${PROJECT_ROOT}\supervisedmodel.m</file>
+      <file>${PROJECT_ROOT}\SVMCross.fig</file>
+      <file>${PROJECT_ROOT}\SVMCross.m</file>
+      <file>${PROJECT_ROOT}\SVMHold.fig</file>
+      <file>${PROJECT_ROOT}\SVMHold.m</file>
+      <file>${PROJECT_ROOT}\SVRCross.fig</file>
+      <file>${PROJECT_ROOT}\SVRCross.m</file>
+      <file>${PROJECT_ROOT}\SVRHold.fig</file>
+      <file>${PROJECT_ROOT}\SVRHold.m</file>
+      <file>${PROJECT_ROOT}\unsupervisedmodel.fig</file>
+      <file>${PROJECT_ROOT}\unsupervisedmodel.m</file>
+      <file>${PROJECT_ROOT}\XGBootsRegressionCross.fig</file>
+      <file>${PROJECT_ROOT}\XGBootsRegressionCross.m</file>
+      <file>${PROJECT_ROOT}\XGBootsRegressionHold.fig</file>
+      <file>${PROJECT_ROOT}\XGBootsRegressionHold.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="D:\desktop\26MLM" name="matlabgui" optional="false">D:\desktop\26MLM\matlabgui</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2020b</root>
+      <toolboxes>
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
